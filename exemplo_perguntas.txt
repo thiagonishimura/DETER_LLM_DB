@@ -1,0 +1,28 @@
+Introdução:
+
+Em stories, quem é Lily?
+
+Com base na política da companhia aérea, preciso reconfirmar meu voo?
+
+Me dê os nomes das tabelas no banco de dados de viagens
+
+Me dê os nomes das tabelas no banco de dados Chinook
+
+Me dê o link do debate entre Trump e Harris no YouTube
+=========================================================================
+Teste final:
+
+Em stories, quem é Fred?
+
+Com base na política da companhia aérea, posso cancelar minha passagem 10 horas antes do voo?
+
+Há algum voo disponível no banco de dados de viagens que vá de CDG para BSL?
+
+No banco de dados Chinook, liste o total de vendas por país. Os clientes de qual país gastaram mais?
+
+Quais são todos os gêneros das músicas de Alanis Morisette?
+
+Dê-me alguns nomes de álbuns contidas no banco.
+
+Dê-me o link para alguns sites para tutorial de langgraph
+============================================================================
