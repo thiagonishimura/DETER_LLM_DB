@@ -5,6 +5,11 @@ from pyprojroot import here
 
 load_dotenv()
 
+print(f"POSTGRES_DB_HOST: {os.getenv('POSTGRES_DB_HOST')}")
+print(f"POSTGRES_DB_PORT: {os.getenv('POSTGRES_DB_PORT')}")
+print(f"POSTGRES_DB_NAME: {os.getenv('POSTGRES_DB_NAME')}")
+print(f"POSTGRES_DB_USER: {os.getenv('POSTGRES_DB_USER')}")
+print(f"POSTGRES_DB_PASSWORD: {os.getenv('POSTGRES_DB_PASSWORD')}")
 
 class LoadToolsConfig:
 
@@ -46,14 +51,15 @@ class LoadToolsConfig:
             app_config["chinook_sqlagent_configs"]["llm_temperature"])
         
         # Configurações PostgreSQL agent
-        self.postgres_db_type = app_config["postgres_sqlagent_configs"]["db_type"]
-        self.postgres_db_host = app_config["postgres_sqlagent_configs"]["db_host"]
-        self.postgres_db_port = app_config["postgres_sqlagent_configs"]["db_port"]
-        self.postgres_db_name = app_config["postgres_sqlagent_configs"]["db_name"]
-        self.postgres_db_user = app_config["postgres_sqlagent_configs"]["db_user"]
-        self.postgres_db_password = app_config["postgres_sqlagent_configs"]["db_password"]
+        self.postgres_db_host = os.getenv("POSTGRES_DB_HOST", app_config["postgres_sqlagent_configs"]["db_host"])
+        self.postgres_db_port = os.getenv("POSTGRES_DB_PORT", app_config["postgres_sqlagent_configs"]["db_port"])
+        self.postgres_db_name = os.getenv("POSTGRES_DB_NAME", app_config["postgres_sqlagent_configs"]["db_name"])
+        self.postgres_db_user = os.getenv("POSTGRES_DB_USER", app_config["postgres_sqlagent_configs"]["db_user"])
+        self.postgres_db_password = os.getenv("POSTGRES_DB_PASSWORD", app_config["postgres_sqlagent_configs"]["db_password"])
+
         self.postgres_sqlagent_llm = app_config["postgres_sqlagent_configs"]["llm"]
         self.postgres_sqlagent_llm_temperature = float(app_config["postgres_sqlagent_configs"]["llm_temperature"])
+
 
         # Configurações Graph
         self.thread_id = str(
