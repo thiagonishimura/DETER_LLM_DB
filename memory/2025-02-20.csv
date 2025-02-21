@@ -384,3 +384,316 @@ Essas etapas, que anteriormente eram realizadas manualmente e levavam cerca de 1
 1,15:40:55,Qual genero musical mais registrado?,"O gênero musical mais registrado na base de dados Chinook é o **Rock**, com um total de **1297 faixas**."
 1,15:41:16,Qual o genero musical que possui menos registro?,"O gênero musical que possui menos registros na base de dados Chinook é a **Ópera**, com apenas **1 faixa** registrada."
 1,15:41:44,Qual o artista que lançou o album de opera?,"O artista que lançou o álbum de ópera é **Sir Georg Solti, Sumi Jo & Wiener Philharmoniker**."
+1,19:21:41,Quais bases de dados você tem acesso?,"Eu tenho acesso a duas bases de dados principais:
+
+1. **Chinook SQL Database**: Uma base de dados de exemplo que contém informações sobre uma loja de música, incluindo tabelas para artistas, álbuns, faixas, clientes, e vendas.
+
+2. **PostgreSQL Database**: Uma base de dados que permite executar consultas SQL e retornar resultados.
+
+Se você tiver alguma consulta específica em mente, posso ajudar a buscar informações nessas bases de dados!"
+1,19:22:18,Qual o nome da base de dados postgres que você tem acesso?,"Não tenho acesso a informações específicas sobre o nome da base de dados PostgreSQL que estou utilizando. No entanto, posso executar consultas SQL nessa base de dados. Se você tiver uma consulta específica ou um tipo de informação que deseja buscar, sinta-se à vontade para me informar!"
+1,19:48:33,"Quais são as bases de dados que você tem acesso?
+","Eu tenho acesso a duas bases de dados principais:
+
+1. **Chinook SQL Database**: Uma base de dados de exemplo que contém informações sobre uma loja de música, incluindo tabelas para artistas, álbuns, clientes, funcionários, faturas e mais.
+
+2. **PostgreSQL Database**: Uma base de dados que permite executar consultas SQL e retornar resultados.
+
+Se você tiver alguma consulta específica em mente, posso ajudar a buscar informações nessas bases de dados!"
+1,19:49:00,Quais as tabelas contidas no banco de dado amazonia?,"O banco de dados ""amazonia"" contém as seguintes tabelas:
+
+1. sdr_alerta_view
+2. avisos_validacao
+3. geography_columns
+4. geometry_columns
+5. spatial_ref_sys
+6. active_fires_last_month
+7. active_fires_mask
+8. active_fires_since_2016
+9. ai
+10. sdr_alerta_deforestation_mask
+11. indicios
+12. limite_bioma_cerrado
+13. limite_bioma_pantanal
+14. sdr_alerta
+15. nao_floresta
+16. ptos_validacao_deterb_amz
+17. sdr_alerta_degradation_removed
+18. sdr_alerta_falsopositivos
+19. sdr_alerta_mask
+20. sdr_alerta_new_degradation
+21. sdr_alerta_removables_2023
+22. sdr_cell
+23. sp_mascara_prodes
+24. sp_mascara_prodes_2024_pri
+
+Se precisar de mais informações sobre alguma dessas tabelas, é só avisar!"
+1,19:49:40,"Quais os usuários contidos nessa base de dados?
+","A base de dados contém o seguinte usuário:
+
+- postgres
+
+Se precisar de mais informações ou tiver outras perguntas, fique à vontade para perguntar!"
+1,19:50:48,"Quando eu informar usuários da base de dados amazonia, eu me refiro a tabela ta_user do schema terraamazon.","A tabela `ta_user` do schema `terraamazon` contém os seguintes usuários:
+
+| ID | Nome      | Email                          |
+|----|-----------|--------------------------------|
+| 2  | postgres  |                                |
+| 32 | Rita      |                                |
+| 7  | Jeremias  | jeremias.feitosa@inpe.br      |
+| 21 | Lidiane   | lidi                           |
+| 27 | Alcione   | x                              |
+| 10 | Mirian    | mirian.mcd@gmail.com          |
+| 1  | tmzuser   |                                |
+| 30 | Marcelo   | marcelo.justino@inpe.br       |
+| 8  | Arlesson  | arlessonantonio@gmail.com      |
+| 33 | Lucas     | fuadfu                        |
+| 34 | Julio     | ojulioaraujo@gmail.com        |
+| 12 | Ronise    | ronisearraes@hotmail.com      |
+| 26 | Walber    | torres_walber@hotmail.com     |
+| 3  | Nelton    | nelton.luz@funcate.org.br     |
+| 35 | Angelo    | angelobatalha95@gmail.com     |
+
+Se precisar de mais informações ou detalhes sobre algum usuário específico, é só avisar!"
+1,19:52:27,Quais os usuários em amazonia?,"Os usuários na Amazônia podem ser categorizados em diferentes grupos, dependendo do contexto. Aqui estão algumas informações relevantes:
+
+1. **Usuários Cadastrados em Plataformas de Dados**: Existem plataformas como [Amazonia Legal em Dados](https://amazonialegalemdados.info/) que permitem que usuários cadastrados tenham acesso a recursos exclusivos, como navegação customizada, alertas de atualização de indicadores e download de dados.
+
+2. **Usuários de Serviços Geoespaciais**: A iniciativa [SERVIR-Amazônia](https://servir.alliancebioversityciat.org/?lang=pt-br) oferece uma série de serviços geoespaciais adaptados para usuários que utilizam dados da NASA e observações da Terra, com o objetivo de informar e apoiar a gestão ambiental na região.
+
+Se você estiver interessado em um tipo específico de usuário ou em mais detalhes sobre um grupo em particular, por favor, me avise!"
+1,19:58:58,Quais os usuários na base de dados amazonia?,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""usuarios"" não existe
+LINE 1: SELECT * FROM usuarios LIMIT 5;
+                      ^
+
+[SQL: SELECT * FROM usuarios LIMIT 5;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,19:59:23,acesse o schema terraamazon,"Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_Jj9E9IvBHym7ayy2VDixmlsG"", 'type': 'invalid_request_error', 'param': 'messages.[2].role', 'code': None}}. Tente novamente."
+1,19:59:55,Acesse a base de dados amazonia e acesse a tabela ta_user do schema terraamazon,"Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_Jj9E9IvBHym7ayy2VDixmlsG"", 'type': 'invalid_request_error', 'param': 'messages.[2].role', 'code': None}}. Tente novamente."
+1,20:02:58,Acesse a base de dados amazonia e acesse a tabela ta_user do schema terraamazon,"Aqui estão os dados da tabela `ta_user` do schema `terraamazon`:
+
+| ID | User ID | Nome      | Senha                                                                 | Email                        | Ativo | Criado em | Atualizado em |
+|----|---------|-----------|-----------------------------------------------------------------------|------------------------------|-------|-----------|---------------|
+| 2  | 1       | postgres  | 6b3404f9807db570c377fb7c83c8e5b11cf8c5c9d828b25ebdec52d1fefc4811  |                              | False | None      | None          |
+| 32 | 1       | Rita      | b2dfb2b0f3d2f5f85934e34d3381e86974bb68964a5a2d9b56cfa615337b9a9a  |                              | False | None      | None          |
+| 7  | 1       | Jeremias  | 201e20179674c1adf4dfe39a8b3ea469aebd62b92c79f08e46e79a1cbf63eb73  | jeremias.feitosa@inpe.br    | False | None      | None          |
+| 21 | 1       | Lidiane   | c51fb26b53f17d8ef2c5c86219a4335835f066fb0fcc25fcca21217e3711b44f  | lidi                         | False | None      | None          |
+| 27 | 1       | Alcione   | 0b98c27b4ca8d494ce62ef96f5199851b8fe59259f8e6eef5c8829f2945a2e90  | x                            | False | None      | None          |
+| 10 | 1       | Mirian    | 32905181d36bdf1b2a7c5843cf7a33c20c0c31b85c1afd251b237757d1e620d7  | mirian.mcd@gmail.com        | False | None      | None          |
+| 1  | 1       | tmzuser   | cbc62794911ff31b2864ecd3dbbbee7ebcb7ea41c5a42e2cba377f3cfdb42811  |                              | False | None      | None          |
+| 30 | 1       | Marcelo   | a86c261f64d780d7b75bf50e497110843f97f2e379eee18a13b9e26b4ec23872  | marcelo.justino@inpe.br     | False | None      | None          |
+| 8  | 1       | Arlesson  | a567d399bb1f6f61c1e149ada31a0e1ad25a27a7274df4f233f006209de4b73e  | arlessonantonio@gmail.com    | False | None      | None          |
+| 33 | 1       | Lucas     | e637f1e739a89dcc2f6a47c8bedc949d1be875d48eaedb3cdbb532ee0e82a35c  | fuadfu                       | False | None      | None          |
+| 34 | 1       | Julio     | 8e60354e62490a3a9e48314b6928e2dfc09e6dcb342dde0329148ba515a005e5  | ojulioaraujo@gmail.com      | False | None      | None          |
+| 12 | 1       | Ronise    | 1648350619a9c8b07626111453c80e687ac03124ba6cec83c51e84aa76b7343c  | ronisearraes@hotmail.com    | False | None      | None          |
+| 26 | 1       | Walber    | eda7a59466adce3a5349eaac69812f703155f2c8f37b10146a334281977f61a0  | torres_walber@hotmail.com    | False | None      | None          |
+| 3  | 1       | Nelton    | 3d4a74538a308836703411756cd53ea2839f80713ab943ef196ec4be6dacc80b  | nelton.luz@funcate.org.br   | False | None      | None          |
+| 35 | 1       | Angelo    | 6dfccdaa7508db102a499f91c7f57a2b19bb4bb666cc45517953d81a423ea72e  | angelobatalha95@gmail.com   | False | None      | None          |
+
+Se precisar de mais informações ou de uma consulta específica, é só avisar!"
+1,20:03:32,Quantos alertas foram gerados no mes de janeiro de 2025?,"No mês de janeiro de 2025, foram gerados 892 alertas. Se precisar de mais informações, é só avisar!"
+1,20:04:13,Qual usuario mais gerou registros de alerta?,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""terraamazon.alerts"" não existe
+LINE 2: FROM terraamazon.alerts 
+             ^
+
+[SQL: SELECT user_id, COUNT(*) as alert_count 
+FROM terraamazon.alerts 
+GROUP BY user_id 
+ORDER BY alert_count DESC 
+LIMIT 1;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,20:04:41,Qual o numero de alertas gerados na tabela sdr_alerta?,"Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_qy2tsxkOcQeo4wRlozLTdZMT"", 'type': 'invalid_request_error', 'param': 'messages.[10].role', 'code': None}}. Tente novamente."
+1,20:06:55,Acesse a base de dados amazonia e acesse a tabela ta_user do schema terraamazon,"Aqui estão os dados da tabela `ta_user` do schema `terraamazon`:
+
+| ID | User ID | Nome      | Senha                                                                 | Email                        | Ativo | Criado em | Atualizado em |
+|----|---------|-----------|-----------------------------------------------------------------------|------------------------------|-------|-----------|---------------|
+| 2  | 1       | postgres  | 6b3404f9807db570c377fb7c83c8e5b11cf8c5c9d828b25ebdec52d1fefc4811  |                              | False | None      | None          |
+| 32 | 1       | Rita      | b2dfb2b0f3d2f5f85934e34d3381e86974bb68964a5a2d9b56cfa615337b9a9a  |                              | False | None      | None          |
+| 7  | 1       | Jeremias  | 201e20179674c1adf4dfe39a8b3ea469aebd62b92c79f08e46e79a1cbf63eb73  | jeremias.feitosa@inpe.br    | False | None      | None          |
+| 21 | 1       | Lidiane   | c51fb26b53f17d8ef2c5c86219a4335835f066fb0fcc25fcca21217e3711b44f  | lidi                         | False | None      | None          |
+| 27 | 1       | Alcione   | 0b98c27b4ca8d494ce62ef96f5199851b8fe59259f8e6eef5c8829f2945a2e90  | x                            | False | None      | None          |
+| 10 | 1       | Mirian    | 32905181d36bdf1b2a7c5843cf7a33c20c0c31b85c1afd251b237757d1e620d7  | mirian.mcd@gmail.com        | False | None      | None          |
+| 1  | 1       | tmzuser   | cbc62794911ff31b2864ecd3dbbbee7ebcb7ea41c5a42e2cba377f3cfdb42811  |                              | False | None      | None          |
+| 30 | 1       | Marcelo   | a86c261f64d780d7b75bf50e497110843f97f2e379eee18a13b9e26b4ec23872  | marcelo.justino@inpe.br     | False | None      | None          |
+| 8  | 1       | Arlesson  | a567d399bb1f6f61c1e149ada31a0e1ad25a27a7274df4f233f006209de4b73e  | arlessonantonio@gmail.com    | False | None      | None          |
+| 33 | 1       | Lucas     | e637f1e739a89dcc2f6a47c8bedc949d1be875d48eaedb3cdbb532ee0e82a35c  | fuadfu                      | False | None      | None          |
+| 34 | 1       | Julio     | 8e60354e62490a3a9e48314b6928e2dfc09e6dcb342dde0329148ba515a005e5  | ojulioaraujo@gmail.com      | False | None      | None          |
+| 12 | 1       | Ronise    | 1648350619a9c8b07626111453c80e687ac03124ba6cec83c51e84aa76b7343c  | ronisearraes@hotmail.com    | False | None      | None          |
+| 26 | 1       | Walber    | eda7a59466adce3a5349eaac69812f703155f2c8f37b10146a334281977f61a0  | torres_walber@hotmail.com    | False | None      | None          |
+| 3  | 1       | Nelton    | 3d4a74538a308836703411756cd53ea2839f80713ab943ef196ec4be6dacc80b  | nelton.luz@funcate.org.br   | False | None      | None          |
+| 35 | 1       | Angelo    | 6dfccdaa7508db102a499f91c7f57a2b19bb4bb666cc45517953d81a423ea72e  | angelobatalha95@gmail.com    | False | None      | None          |
+
+Se precisar de mais informações ou de uma consulta específica, é só avisar!"
+1,20:09:42,QUantos registros possui a tabela sdr_alerta do schema public?,"A tabela `sdr_alerta` do schema `public` possui um total de 80.609 registros. Se precisar de mais informações ou de outra consulta, é só avisar!"
+1,20:10:50,"na tabela sdr_alerta quais as class_name existentes, e quantos registros em cada uma?","Aqui estão as `class_name` existentes na tabela `sdr_alerta` e a contagem de registros em cada uma:
+
+| class_name                  | Total de Registros |
+|-----------------------------|--------------------|
+| CICATRIZ_DE_QUEIMADA       | 68.565             |
+| None                        | 16                 |
+| DESMATAMENTO_CR             | 172                |
+| CS_DESORDENADO             | 1.479              |
+| CS_GEOMETRICO              | 1.150              |
+| DEGRADACAO                 | 9.227              |
+
+Se precisar de mais informações ou de outra consulta, é só avisar!"
+1,20:20:55,Quantos usuários existem no banco? (Consultar tabela 'ta_user' no schema 'terraamazon').,Existem 15 usuários na tabela 'ta_user' no schema 'terraamazon'.
+1,20:21:20,Quais os nomes desses usuários? (Consultar tabela 'ta_user' no schema 'terraamazon').,"Os nomes dos usuários na tabela 'ta_user' no schema 'terraamazon' são:
+
+1. postgres
+2. Rita
+3. Jeremias
+4. Lidiane
+5. Alcione
+6. Mirian
+7. tmzuser
+8. Marcelo
+9. Arlesson
+10. Lucas
+11. Julio
+12. Ronise
+13. Walber
+14. Nelton
+15. Angelo"
+1,20:22:09,Quantos alerta foram gerados no mes de janeiro de 2025? (Consultar tabela 'tb_alert' no schema 'terrabrasilis').,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""terrabrasilis.tb_alert"" não existe
+LINE 2: FROM terrabrasilis.tb_alert 
+             ^
+
+[SQL: SELECT COUNT(*) 
+FROM terrabrasilis.tb_alert 
+WHERE EXTRACT(MONTH FROM alert_date) = 1 AND EXTRACT(YEAR FROM alert_date) = 2025;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,20:23:34,Quantos alerta foram gerados no mes de janeiro de 2025? (Consultar tabela 'sdr_alerta' no schema 'public').,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedFunction) ERRO:  função pg_catalog.extract(unknown, character varying) não existe
+LINE 1: SELECT COUNT(*) FROM sdr_alerta WHERE EXTRACT(MONTH FROM dat...
+                                              ^
+HINT:  Nenhuma função corresponde com o nome e os tipos de argumentos informados. Você precisa adicionar conversões de tipo explícitas.
+
+[SQL: SELECT COUNT(*) FROM sdr_alerta WHERE EXTRACT(MONTH FROM data_auditoria) = 1 AND EXTRACT(YEAR FROM data_auditoria) = 2025;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,20:26:12,Quantos alerta foram gerados no mes de janeiro de 2025?,Ocorreu um erro durante o processamento: 'table'. Tente novamente.
+1,20:27:41,Quantos alerta foram gerados no mês de janeiro de 2025?,Ocorreu um erro durante o processamento: 'table'. Tente novamente.
+1,20:27:46,,Hello! How can I assist you today?
+1,20:29:35,"no schema public e em views, você poderia me informar quantos registros possuem a sdr_alerta_view?","A view `sdr_alerta_view` possui 133.661 registros. Se precisar de mais alguma informação, é só avisar!"
+1,20:30:30,nessa mesa view quais os nomes das classes?,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedColumn) ERRO:  coluna ""classe"" não existe
+LINE 1: SELECT DISTINCT ""classe"" FROM sdr_alerta_view;
+                        ^
+
+[SQL: SELECT DISTINCT ""classe"" FROM sdr_alerta_view;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,20:31:06,nessa mesa view quais os registros para a coluna class_name?,"Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_HXoWopKlAwnyYN1aefWyp5dP"", 'type': 'invalid_request_error', 'param': 'messages.[8].role', 'code': None}}. Tente novamente."
+1,20:31:34,"no schema public e em views, você poderia me informar quantos registros possuem a sdr_alerta_view?","Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_HXoWopKlAwnyYN1aefWyp5dP"", 'type': 'invalid_request_error', 'param': 'messages.[8].role', 'code': None}}. Tente novamente."
+1,20:31:52,"no schema public e em views, você poderia me informar quantos registros possuem a sdr_alerta_view?","Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_HXoWopKlAwnyYN1aefWyp5dP"", 'type': 'invalid_request_error', 'param': 'messages.[8].role', 'code': None}}. Tente novamente."
+1,20:33:11,"no schema public e em views, você poderia me informar quantos registros possuem a sdr_alerta_view?",A view `sdr_alerta_view` possui 133.661 registros.
+1,20:34:09,"no schema public e em views, você poderia me informar quais os nomes possuem a coluna class_name na view sdr_alerta_view?","Na view `sdr_alerta_view`, os nomes presentes na coluna `class_name` incluem:
+
+- DESMATAMENTO_CR
+- DEGRADACAO
+
+Observa-se que ""DESMATAMENTO_CR"" aparece várias vezes."
+1,20:34:38,Somente esses dois?,"Na view `sdr_alerta_view`, os nomes distintos presentes na coluna `class_name` são:
+
+- CICATRIZ_DE_QUEIMADA
+- DESMATAMENTO_CR
+- CS_DESORDENADO
+- CS_GEOMETRICO
+- DEGRADACAO
+- (None)  (indica que há registros sem valor na coluna)
+
+Portanto, existem mais de dois valores distintos."
+1,21:18:39,Qual o nome dos usuário?,Poderia fornecer mais contexto ou detalhes sobre quais usuários você está se referindo? Isso me ajudaria a fornecer uma resposta mais precisa.
+1,21:19:03,Todas as perguntas serão para o banco de dados amazonia.,"Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""users"" não existe
+LINE 1: SELECT username FROM users LIMIT 5;
+                             ^
+
+[SQL: SELECT username FROM users LIMIT 5;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,21:19:16,Qual o nome dos usuário?,"Ocorreu um erro durante o processamento: Error code: 400 - {'error': {'message': ""An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_IL5TxIjOCZC84vM6Go9Ol7CQ"", 'type': 'invalid_request_error', 'param': 'messages.[4].role', 'code': None}}. Tente novamente."
+1,21:21:23,"Na base amazonia, qual o nome dos usuário?","Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""users"" não existe
+LINE 1: SELECT username FROM users LIMIT 5;
+                             ^
+
+[SQL: SELECT username FROM users LIMIT 5;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,21:26:02,"Na base de dados amazonia, qual o nome dos usuário?","Ocorreu um erro durante o processamento: (psycopg2.errors.UndefinedTable) ERRO:  relação ""users"" não existe
+LINE 1: SELECT username FROM users;
+                             ^
+
+[SQL: SELECT username FROM users;]
+(Background on this error at: https://sqlalche.me/e/20/f405). Tente novamente."
+1,21:32:27,"Na base de dados amazonia, qual o nome dos usuário?",Não encontrei uma tabela correspondente para a consulta.
+1,21:32:48,,Não encontrei uma tabela correspondente para a consulta.
+1,21:32:48,,Não encontrei uma tabela correspondente para a consulta.
+1,21:33:00,"Nome do usuário
+",Ocorreu um erro durante o processamento: 'Table'. Tente novamente.
+1,21:34:22,"Na base de dados amazonia, qual o nome dos usuário?",Não encontrei uma tabela correspondente para a consulta.
+1,21:35:09,"Na base de dados amazonia, no schema terraamazon na tabela ta_user, quais os valores para a coluna name?",Não encontrei uma tabela correspondente para a consulta.
+1,21:36:35,"Na base de dados amazonia, no schema terraamazon na tabela ta_user, quais os valores para a coluna name?","Os valores para a coluna ""name"" na tabela ""ta_user"" do schema ""terraamazon"" são:
+
+1. postgres
+2. Rita
+3. Jeremias
+4. Lidiane
+5. Alcione
+6. Mirian
+7. tmzuser
+8. Marcelo
+9. Arlesson
+10. Lucas
+11. Julio
+12. Ronise
+13. Walber
+14. Nelton
+15. Angelo"
+1,21:37:32,Quantos alertas foram gerados na tabela sdr_alerta no schema public?,"Foram gerados 80.609 alertas na tabela ""sdr_alerta"" do schema ""public""."
+1,21:37:55,Quais são os usuários?,"Os usuários na tabela ""sdr_alerta"" do schema ""public"" são representados por diferentes alertas. Aqui estão alguns exemplos de alertas e seus detalhes:
+
+1. **Alerta ID:** 466492
+   - Código: C50L68
+   - Tipo: DEGRADACAO
+   - Data: Janeiro
+   - Referência: 039015
+   - Data do Alerta: 20240124
+   - Usuário: WFI
+   - Fonte: AMAZONIA-1
+
+2. **Alerta ID:** 520193
+   - Código: C54L43
+   - Tipo: DEGRADACAO
+   - Data: Agosto
+   - Referência: 038016
+   - Data do Alerta: 20240824
+   - Usuário: WFI
+   - Fonte: AMAZONIA-1
+
+3. **Alerta ID:** 494150
+   - Código: C63L39
+   - Tipo: CICATRIZ_DE_QUEIMADA
+   - Data: Julho
+   - Referência: 171111
+   - Data do Alerta: 20240704
+   - Usuário: AWFI
+   - Fonte: CBERS-4
+
+4. **Alerta ID:** 465662
+   - Código: C42L43
+   - Tipo: CICATRIZ_DE_QUEIMADA
+   - Data: Outubro
+   - Referência: 038016
+   - Data do Alerta: 20231009
+   - Usuário: WFI
+   - Fonte: AMAZONIA-1
+
+5. **Alerta ID:** 471389
+   - Código: C106L63
+   - Tipo: CICATRIZ_DE_QUEIMADA
+   - Data: Fevereiro
+   - Referência: 035016
+   - Data do Alerta: 20240225
+   - Usuário: WFI
+   - Fonte: AMAZONIA-1
+
+Esses são apenas alguns exemplos de alertas e seus respectivos usuários. Se precisar de mais informações ou de uma lista completa, por favor, me avise!"
+1,21:47:10,"Na base de dados amazonia, quais os usuário estão registrados?","[('postgres',), ('Rita',), ('Jeremias',), ('Lidiane',), ('Alcione',), ('Mirian',), ('tmzuser',), ('Marcelo',), ('Arlesson',), ('Lucas',)]"
+1,21:47:29,retorne as respostas em uma tabela formatada,Não encontrei uma tabela correspondente para a consulta.
+1,21:47:45,"Na base de dados amazonia, quais os usuário estão registrados? retorne as respostas em uma tabela formatada","[('postgres',), ('Rita',), ('Jeremias',), ('Lidiane',), ('Alcione',), ('Mirian',), ('tmzuser',), ('Marcelo',), ('Arlesson',), ('Lucas',)]"
+1,21:50:24,"Na base de dados amazonia, quais os usuário estão registrados?","Ocorreu um erro durante o processamento: list indices must be integers or slices, not str. Tente novamente."

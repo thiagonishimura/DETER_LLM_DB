@@ -5,11 +5,13 @@ from pyprojroot import here
 
 load_dotenv()
 
-print(f"POSTGRES_DB_HOST: {os.getenv('POSTGRES_DB_HOST')}")
-print(f"POSTGRES_DB_PORT: {os.getenv('POSTGRES_DB_PORT')}")
-print(f"POSTGRES_DB_NAME: {os.getenv('POSTGRES_DB_NAME')}")
-print(f"POSTGRES_DB_USER: {os.getenv('POSTGRES_DB_USER')}")
-print(f"POSTGRES_DB_PASSWORD: {os.getenv('POSTGRES_DB_PASSWORD')}")
+# Prints para testar a conexão ao banco
+# print(f"POSTGRES_DB_HOST: {os.getenv('POSTGRES_DB_HOST')}")
+# print(f"POSTGRES_DB_PORT: {os.getenv('POSTGRES_DB_PORT')}")
+# print(f"POSTGRES_DB_NAME: {os.getenv('POSTGRES_DB_NAME')}")
+# print(f"POSTGRES_DB_USER: {os.getenv('POSTGRES_DB_USER')}")
+# print(f"POSTGRES_DB_PASSWORD: {os.getenv('POSTGRES_DB_PASSWORD')}")
+
 
 class LoadToolsConfig:
 

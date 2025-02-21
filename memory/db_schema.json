@@ -1,0 +1,2602 @@
+{
+    "public.active_fires_last_month": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "estado",
+            "character varying"
+        ],
+        [
+            "municipio",
+            "character varying"
+        ],
+        [
+            "bioma",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.active_fires_mask": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "estado",
+            "character varying"
+        ],
+        [
+            "municipio",
+            "character varying"
+        ],
+        [
+            "bioma",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.active_fires_since_2016": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "estado",
+            "character varying"
+        ],
+        [
+            "municipio",
+            "character varying"
+        ],
+        [
+            "bioma",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.ai": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "objectid",
+            "character varying"
+        ],
+        [
+            "dissolve",
+            "double precision"
+        ],
+        [
+            "shape_leng",
+            "double precision"
+        ],
+        [
+            "shape_area",
+            "double precision"
+        ],
+        [
+            "objeid_32",
+            "character varying"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.avisos_validacao": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "satellite",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "spatial_data",
+            "USER-DEFINED"
+        ],
+        [
+            "pgis_area_m2",
+            "double precision"
+        ],
+        [
+            "path",
+            "text"
+        ],
+        [
+            "row",
+            "text"
+        ],
+        [
+            "quadrant",
+            "character varying"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ]
+    ],
+    "public.geography_columns": [
+        [
+            "f_table_catalog",
+            "name"
+        ],
+        [
+            "f_table_schema",
+            "name"
+        ],
+        [
+            "f_table_name",
+            "name"
+        ],
+        [
+            "f_geography_column",
+            "name"
+        ],
+        [
+            "coord_dimension",
+            "integer"
+        ],
+        [
+            "srid",
+            "integer"
+        ],
+        [
+            "type",
+            "text"
+        ]
+    ],
+    "public.geometry_columns": [
+        [
+            "f_table_catalog",
+            "character varying"
+        ],
+        [
+            "f_table_schema",
+            "name"
+        ],
+        [
+            "f_table_name",
+            "name"
+        ],
+        [
+            "f_geometry_column",
+            "name"
+        ],
+        [
+            "coord_dimension",
+            "integer"
+        ],
+        [
+            "srid",
+            "integer"
+        ],
+        [
+            "type",
+            "character varying"
+        ]
+    ],
+    "public.indicios": [
+        [
+            "fid",
+            "bigint"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "area_ha",
+            "double precision"
+        ]
+    ],
+    "public.limite_bioma_cerrado": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "id",
+            "bigint"
+        ],
+        [
+            "bioma",
+            "character varying"
+        ],
+        [
+            "cd_bioma",
+            "bigint"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.limite_bioma_pantanal": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "id",
+            "bigint"
+        ],
+        [
+            "bioma",
+            "character varying"
+        ],
+        [
+            "cd_bioma",
+            "bigint"
+        ],
+        [
+            "area_km",
+            "double precision"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.nao_floresta": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "spatial_data",
+            "USER-DEFINED"
+        ]
+    ],
+    "public.ptos_validacao_deterb_amz": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "wkb_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "bigint"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "ano",
+            "integer"
+        ],
+        [
+            "area_pol_ha",
+            "numeric"
+        ],
+        [
+            "lat",
+            "numeric"
+        ],
+        [
+            "lon",
+            "numeric"
+        ],
+        [
+            "local_producao",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "orbita",
+            "numeric"
+        ],
+        [
+            "ponto",
+            "numeric"
+        ],
+        [
+            "municipio",
+            "character varying"
+        ],
+        [
+            "estado",
+            "character varying"
+        ],
+        [
+            "classe_fip",
+            "character varying"
+        ],
+        [
+            "classe_avaliador",
+            "character varying"
+        ],
+        [
+            "nome_avaliador",
+            "character varying"
+        ],
+        [
+            "avaliada",
+            "character varying"
+        ],
+        [
+            "datainic_avaliacao",
+            "timestamp without time zone"
+        ],
+        [
+            "datafim_avaliacao",
+            "timestamp without time zone"
+        ],
+        [
+            "deltat",
+            "bigint"
+        ],
+        [
+            "ip",
+            "character varying"
+        ],
+        [
+            "geom_em_bkp",
+            "integer"
+        ],
+        [
+            "pacote",
+            "bigint"
+        ]
+    ],
+    "public.sdr_alerta": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "character varying"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "character varying"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "uuid",
+            "text"
+        ]
+    ],
+    "public.sdr_alerta_deforestation_mask": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "date"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "uuid",
+            "text"
+        ],
+        [
+            "created_at",
+            "timestamp with time zone"
+        ]
+    ],
+    "public.sdr_alerta_degradation_removed": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "date"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "uuid",
+            "uuid"
+        ],
+        [
+            "removed_at",
+            "timestamp with time zone"
+        ]
+    ],
+    "public.sdr_alerta_falsopositivos": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "character varying"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "character varying"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ]
+    ],
+    "public.sdr_alerta_mask": [
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "data_auditoria",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "character varying"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "uuid",
+            "text"
+        ]
+    ],
+    "public.sdr_alerta_new_degradation": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "date"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "uuid",
+            "uuid"
+        ],
+        [
+            "created_at",
+            "timestamp with time zone"
+        ]
+    ],
+    "public.sdr_alerta_removables_2023": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "character varying"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "character varying"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "uuid",
+            "text"
+        ]
+    ],
+    "public.sdr_alerta_view": [
+        [
+            "object_id",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbiponto",
+            "character varying"
+        ],
+        [
+            "mes",
+            "character varying"
+        ],
+        [
+            "data_img",
+            "character varying"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "data_auditoria",
+            "character varying"
+        ],
+        [
+            "ogr_geometry",
+            "USER-DEFINED"
+        ],
+        [
+            "area",
+            "double precision"
+        ],
+        [
+            "auditar",
+            "character varying"
+        ],
+        [
+            "uuid",
+            "text"
+        ]
+    ],
+    "public.sdr_cell": [
+        [
+            "id",
+            "character varying"
+        ],
+        [
+            "col",
+            "integer"
+        ],
+        [
+            "row",
+            "integer"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "process_id",
+            "integer"
+        ]
+    ],
+    "public.sp_mascara_prodes": [
+        [
+            "fid",
+            "integer"
+        ],
+        [
+            "uuid",
+            "uuid"
+        ],
+        [
+            "pathrow",
+            "character varying"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "area_km",
+            "double precision"
+        ]
+    ],
+    "public.sp_mascara_prodes_2024_pri": [
+        [
+            "uuid",
+            "uuid"
+        ],
+        [
+            "pathrow",
+            "character varying"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "area_km",
+            "double precision"
+        ],
+        [
+            "fid",
+            "integer"
+        ]
+    ],
+    "public.spatial_ref_sys": [
+        [
+            "srid",
+            "integer"
+        ],
+        [
+            "auth_name",
+            "character varying"
+        ],
+        [
+            "auth_srid",
+            "integer"
+        ],
+        [
+            "srtext",
+            "character varying"
+        ],
+        [
+            "proj4text",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_aoi_layer": [
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "aoi_id_column",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_area_calculation": [
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "min_area",
+            "double precision"
+        ],
+        [
+            "unit_measurement",
+            "character varying"
+        ],
+        [
+            "srs_proj4",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_blocked_cells": [
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "cell_id",
+            "character varying"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ],
+        [
+            "phase_id",
+            "integer"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_bookmark_annotation": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "layer_id",
+            "integer"
+        ],
+        [
+            "annotation_type_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "annotation_date",
+            "timestamp without time zone"
+        ],
+        [
+            "message",
+            "text"
+        ],
+        [
+            "parent_bookmark_id",
+            "integer"
+        ],
+        [
+            "status",
+            "integer"
+        ],
+        [
+            "extent_x0",
+            "double precision"
+        ],
+        [
+            "extent_y0",
+            "double precision"
+        ],
+        [
+            "extent_x1",
+            "double precision"
+        ],
+        [
+            "extent_y1",
+            "double precision"
+        ]
+    ],
+    "terraamazon.ta_bookmark_annotation_media": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "annotation_id",
+            "integer"
+        ],
+        [
+            "media_name",
+            "character varying"
+        ],
+        [
+            "media_type",
+            "integer"
+        ],
+        [
+            "blob_data",
+            "bytea"
+        ],
+        [
+            "file_size",
+            "bigint"
+        ]
+    ],
+    "terraamazon.ta_bookmark_annotation_type": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "type",
+            "character varying"
+        ],
+        [
+            "mark_id",
+            "integer"
+        ],
+        [
+            "description",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_bookmark_association": [
+        [
+            "bookmark_id",
+            "integer"
+        ],
+        [
+            "annotation_type_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_bookmark_layer": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "shared_uri",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_bookmark_marks": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "mark_label",
+            "character varying"
+        ],
+        [
+            "inline_resource",
+            "text"
+        ],
+        [
+            "img_size",
+            "integer"
+        ],
+        [
+            "angle",
+            "integer"
+        ],
+        [
+            "opacity",
+            "integer"
+        ],
+        [
+            "resource_format",
+            "integer"
+        ],
+        [
+            "resource_extension",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_catalog": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "uri",
+            "character varying"
+        ],
+        [
+            "source_type",
+            "character varying"
+        ],
+        [
+            "permission",
+            "integer"
+        ],
+        [
+            "last_edition",
+            "timestamp without time zone"
+        ],
+        [
+            "author",
+            "character varying"
+        ],
+        [
+            "source",
+            "character varying"
+        ],
+        [
+            "description",
+            "character varying"
+        ],
+        [
+            "scale_min",
+            "double precision"
+        ],
+        [
+            "scale_max",
+            "double precision"
+        ],
+        [
+            "style",
+            "text"
+        ],
+        [
+            "cell_column",
+            "character varying"
+        ],
+        [
+            "locked",
+            "boolean"
+        ],
+        [
+            "layer_type",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_cell_layer": [
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "resolution",
+            "double precision"
+        ],
+        [
+            "active",
+            "boolean"
+        ]
+    ],
+    "terraamazon.ta_celllog": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ],
+        [
+            "cell_id",
+            "character varying"
+        ],
+        [
+            "status",
+            "character varying"
+        ],
+        [
+            "time",
+            "timestamp without time zone"
+        ],
+        [
+            "finalized",
+            "boolean"
+        ],
+        [
+            "area",
+            "double precision"
+        ]
+    ],
+    "terraamazon.ta_class": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "description",
+            "character varying"
+        ],
+        [
+            "lccs_name",
+            "character varying"
+        ],
+        [
+            "lccs_mapcode",
+            "character varying"
+        ],
+        [
+            "style",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_class_grp4class": [
+        [
+            "class_id",
+            "integer"
+        ],
+        [
+            "grp4class_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_connected_users": [
+        [
+            "connection_id",
+            "integer"
+        ],
+        [
+            "process_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_draft_layer": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "catalog_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_group": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "privileges",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_group_phase": [
+        [
+            "group_id",
+            "integer"
+        ],
+        [
+            "phase_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_group_user": [
+        [
+            "group_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_grp4class": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "description",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_image_server": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "alias",
+            "character varying"
+        ],
+        [
+            "url",
+            "character varying"
+        ],
+        [
+            "description",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_notification": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "to_user_id",
+            "integer"
+        ],
+        [
+            "from_user_id",
+            "integer"
+        ],
+        [
+            "message",
+            "character varying"
+        ],
+        [
+            "datetime",
+            "date"
+        ],
+        [
+            "type",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_notification_unread": [
+        [
+            "to_user_id",
+            "integer"
+        ],
+        [
+            "notification_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_phase": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "description",
+            "character varying"
+        ],
+        [
+            "cell_blocker",
+            "boolean"
+        ]
+    ],
+    "terraamazon.ta_preferences": [
+        [
+            "user_id",
+            "integer"
+        ],
+        [
+            "key",
+            "character varying"
+        ],
+        [
+            "value",
+            "character varying"
+        ],
+        [
+            "all_users",
+            "boolean"
+        ]
+    ],
+    "terraamazon.ta_process": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "tasklog_id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_project": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "active",
+            "boolean"
+        ],
+        [
+            "min_scale",
+            "double precision"
+        ],
+        [
+            "max_scale",
+            "double precision"
+        ],
+        [
+            "created_on",
+            "date"
+        ],
+        [
+            "updated_on",
+            "date"
+        ],
+        [
+            "maxcells",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_project_image_server": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "proj_id",
+            "integer"
+        ],
+        [
+            "server_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_project_image_server_layers": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "proj_server_id",
+            "integer"
+        ],
+        [
+            "layer_name",
+            "character varying"
+        ],
+        [
+            "type",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_project_scene": [
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "locked",
+            "boolean"
+        ]
+    ],
+    "terraamazon.ta_revision": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "slave_user_id",
+            "integer"
+        ],
+        [
+            "master_user_id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "obs",
+            "character varying"
+        ],
+        [
+            "status",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_rule": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "operation_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_rule_ruleset": [
+        [
+            "ruleset_id",
+            "integer"
+        ],
+        [
+            "rule_id",
+            "integer"
+        ],
+        [
+            "priority",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_rules_layer_column": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "rule_id",
+            "integer"
+        ],
+        [
+            "ruleset_id",
+            "integer"
+        ],
+        [
+            "column_in",
+            "character varying"
+        ],
+        [
+            "column_out",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_rules_layer_params": [
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "class_column",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_ruleset": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "catalog_id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_ruleset_class": [
+        [
+            "ruleset_id",
+            "integer"
+        ],
+        [
+            "class_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_ruleset_project": [
+        [
+            "ruleset_id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_scene": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "view_date",
+            "date"
+        ],
+        [
+            "julday",
+            "integer"
+        ],
+        [
+            "inclusion",
+            "timestamp without time zone"
+        ],
+        [
+            "ai_object_id",
+            "character varying"
+        ],
+        [
+            "aoi_layer_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_tagtask": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "label",
+            "character varying"
+        ],
+        [
+            "initial_date",
+            "date"
+        ],
+        [
+            "final_date",
+            "date"
+        ]
+    ],
+    "terraamazon.ta_task": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "scene_id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "phase_id",
+            "integer"
+        ],
+        [
+            "user_id",
+            "integer"
+        ]
+    ],
+    "terraamazon.ta_tasklog": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "task_id",
+            "integer"
+        ],
+        [
+            "status",
+            "character varying"
+        ],
+        [
+            "initial_time",
+            "timestamp without time zone"
+        ],
+        [
+            "final_time",
+            "timestamp without time zone"
+        ],
+        [
+            "timer",
+            "integer"
+        ],
+        [
+            "obs",
+            "character varying"
+        ]
+    ],
+    "terraamazon.ta_user": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "project_id",
+            "integer"
+        ],
+        [
+            "name",
+            "character varying"
+        ],
+        [
+            "password",
+            "character varying"
+        ],
+        [
+            "email",
+            "character varying"
+        ],
+        [
+            "active",
+            "boolean"
+        ],
+        [
+            "date_i",
+            "date"
+        ],
+        [
+            "date_f",
+            "date"
+        ]
+    ],
+    "terraamazon.ta_version": [
+        [
+            "version",
+            "character varying"
+        ],
+        [
+            "caption",
+            "character varying"
+        ]
+    ],
+    "terrabrasilis.deter_table": [
+        [
+            "gid",
+            "integer"
+        ],
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "classname",
+            "character varying"
+        ],
+        [
+            "quadrant",
+            "character varying"
+        ],
+        [
+            "orbitpoint",
+            "character varying"
+        ],
+        [
+            "date",
+            "date"
+        ],
+        [
+            "date_audit",
+            "date"
+        ],
+        [
+            "lot",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satellite",
+            "character varying"
+        ],
+        [
+            "areatotalkm",
+            "double precision"
+        ],
+        [
+            "areamunkm",
+            "double precision"
+        ],
+        [
+            "areauckm",
+            "double precision"
+        ],
+        [
+            "county",
+            "character varying"
+        ],
+        [
+            "geocod",
+            "character varying"
+        ],
+        [
+            "uf",
+            "character varying"
+        ],
+        [
+            "uc",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ],
+    "terrabrasilis.deterb_alerts": [
+        [
+            "gid",
+            "bigint"
+        ],
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "cell_oid",
+            "character varying"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbita_ponto",
+            "character varying"
+        ],
+        [
+            "data",
+            "date"
+        ],
+        [
+            "data_audit",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "geometries",
+            "USER-DEFINED"
+        ],
+        [
+            "area_total_km",
+            "double precision"
+        ]
+    ],
+    "terrabrasilis.deterb_alerts_mun_ucs": [
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "classname",
+            "character varying"
+        ],
+        [
+            "quadrant",
+            "character varying"
+        ],
+        [
+            "orbitpoint",
+            "character varying"
+        ],
+        [
+            "date",
+            "date"
+        ],
+        [
+            "date_audit",
+            "date"
+        ],
+        [
+            "lot",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satellite",
+            "character varying"
+        ],
+        [
+            "areatotalkm",
+            "double precision"
+        ],
+        [
+            "areauckm",
+            "double precision"
+        ],
+        [
+            "uc",
+            "character varying"
+        ],
+        [
+            "areamunkm",
+            "double precision"
+        ],
+        [
+            "county",
+            "character varying"
+        ],
+        [
+            "geocod",
+            "character varying"
+        ],
+        [
+            "uf",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ],
+        [
+            "gid",
+            "bigint"
+        ]
+    ],
+    "terrabrasilis.deterb_alerts_outside_ucs": [
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbita_ponto",
+            "character varying"
+        ],
+        [
+            "data",
+            "date"
+        ],
+        [
+            "data_audit",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "area_total_km",
+            "double precision"
+        ],
+        [
+            "area_uc_km",
+            "double precision"
+        ],
+        [
+            "uc",
+            "character varying"
+        ],
+        [
+            "geometries",
+            "USER-DEFINED"
+        ],
+        [
+            "gid",
+            "bigint"
+        ]
+    ],
+    "terrabrasilis.deterb_alerts_ucs": [
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbita_ponto",
+            "character varying"
+        ],
+        [
+            "data",
+            "date"
+        ],
+        [
+            "data_audit",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "area_total_km",
+            "double precision"
+        ],
+        [
+            "area_uc_km",
+            "double precision"
+        ],
+        [
+            "uc",
+            "character varying"
+        ],
+        [
+            "geometries",
+            "USER-DEFINED"
+        ],
+        [
+            "gid",
+            "bigint"
+        ]
+    ],
+    "terrabrasilis.deterb_alerts_ucs_joined": [
+        [
+            "gid",
+            "bigint"
+        ],
+        [
+            "origin_gid",
+            "integer"
+        ],
+        [
+            "class_name",
+            "character varying"
+        ],
+        [
+            "quadrante",
+            "character varying"
+        ],
+        [
+            "orbita_ponto",
+            "character varying"
+        ],
+        [
+            "data",
+            "date"
+        ],
+        [
+            "data_audit",
+            "date"
+        ],
+        [
+            "lote",
+            "character varying"
+        ],
+        [
+            "sensor",
+            "character varying"
+        ],
+        [
+            "satelite",
+            "character varying"
+        ],
+        [
+            "area_total_km",
+            "double precision"
+        ],
+        [
+            "area_uc_km",
+            "double precision"
+        ],
+        [
+            "uc",
+            "character varying"
+        ],
+        [
+            "geometries",
+            "USER-DEFINED"
+        ]
+    ],
+    "terrabrasilis.input_control": [
+        [
+            "id",
+            "integer"
+        ],
+        [
+            "processing_at",
+            "date"
+        ],
+        [
+            "max_object_id",
+            "integer"
+        ],
+        [
+            "list_object_id",
+            "text"
+        ],
+        [
+            "max_deforestation_date",
+            "date"
+        ],
+        [
+            "min_deforestation_date",
+            "date"
+        ]
+    ],
+    "terrabrasilis.limit_amz_without_ucs": [
+        [
+            "gid",
+            "integer"
+        ],
+        [
+            "id_0",
+            "double precision"
+        ],
+        [
+            "id",
+            "double precision"
+        ],
+        [
+            "sprarea",
+            "numeric"
+        ],
+        [
+            "sprperimet",
+            "numeric"
+        ],
+        [
+            "sprclasse",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ],
+    "terrabrasilis.municipios": [
+        [
+            "gid",
+            "integer"
+        ],
+        [
+            "linkcolumn",
+            "character varying"
+        ],
+        [
+            "nm_nng",
+            "character varying"
+        ],
+        [
+            "geocodigo",
+            "character varying"
+        ],
+        [
+            "uf",
+            "character varying"
+        ],
+        [
+            "geomid_a5",
+            "numeric"
+        ],
+        [
+            "objectid_a",
+            "character varying"
+        ],
+        [
+            "object_id_",
+            "character varying"
+        ],
+        [
+            "geom_id",
+            "double precision"
+        ],
+        [
+            "object_id",
+            "character varying"
+        ],
+        [
+            "geometries",
+            "USER-DEFINED"
+        ]
+    ],
+    "terrabrasilis.ucs_amz": [
+        [
+            "gid",
+            "integer"
+        ],
+        [
+            "id_0",
+            "double precision"
+        ],
+        [
+            "id",
+            "double precision"
+        ],
+        [
+            "codigocnuc",
+            "character varying"
+        ],
+        [
+            "nome",
+            "character varying"
+        ],
+        [
+            "geometriaa",
+            "character varying"
+        ],
+        [
+            "anocriacao",
+            "double precision"
+        ],
+        [
+            "sigla",
+            "character varying"
+        ],
+        [
+            "areaha",
+            "numeric"
+        ],
+        [
+            "perimetrom",
+            "numeric"
+        ],
+        [
+            "atolegal",
+            "character varying"
+        ],
+        [
+            "administra",
+            "character varying"
+        ],
+        [
+            "siglagrupo",
+            "character varying"
+        ],
+        [
+            "uf",
+            "character varying"
+        ],
+        [
+            "municipios",
+            "character varying"
+        ],
+        [
+            "biomaibge",
+            "character varying"
+        ],
+        [
+            "biomacrl",
+            "character varying"
+        ],
+        [
+            "coordregio",
+            "character varying"
+        ],
+        [
+            "uorg",
+            "double precision"
+        ],
+        [
+            "id_2",
+            "double precision"
+        ],
+        [
+            "sprarea",
+            "numeric"
+        ],
+        [
+            "sprperimet",
+            "numeric"
+        ],
+        [
+            "sprclasse",
+            "character varying"
+        ],
+        [
+            "geom",
+            "USER-DEFINED"
+        ]
+    ]
+}
